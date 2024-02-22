@@ -1,23 +1,70 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 20px;
 }
+
 .container {
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 20px;
 }
-h1, h2, h3 {
-    margin-top: 0;
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
 h2 {
-    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
 }
+
 li {
     margin-bottom: 10px;
+}
+
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for responsive design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
 }
