@@ -10,6 +10,12 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .img{
+  width: 900px; 
+  height: 290px;
+  object-fit: cover;
+  overflow: hidden;
+}
 
 :root {
   --bs-blue: #0d6efd;
